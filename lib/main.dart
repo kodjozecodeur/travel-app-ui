@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Travel App',
       theme: ThemeData(
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        scaffoldBackgroundColor: const Color(0xFFFFFFFF),
         useMaterial3: true,
         fontFamily: 'Poppins',
       ),
